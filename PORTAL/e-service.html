@@ -330,7 +330,7 @@
                                     <option selected disabled>Jenis Service</option>
                                     <option value="1">Permohonan Pengawalan</option>
                                     <option value="2">Permohonan Uji Kompetensi SIM</option>
-                                    <option value="3">Perminataan Bantuan Pencarian Orang Hilang</option>
+                                    <option value="3">Permintaan Bantuan Pencarian Orang Hilang</option>
                                 </select>
                                 </div>
 
@@ -369,7 +369,46 @@
                                     </div>
                                 </div>
 
-                                <div class ="row">
+                                
+                                <table class="table table-bordered mt-2">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Dokumen Diperlukan</th>
+                                        <th scope="col">Upload</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">1</th>
+                                        <td>Foto KTP</td>
+                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">2</th>
+                                        <td>SIM Lama</td>
+                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">3</th>
+                                        <td>Sertifikat Sekolah Mengemudi</td>
+                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">4</th>
+                                        <td>Foto Cek Kesehatan</td>
+                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">5</th>
+                                        <td>Foto Bukti Lunas Administrasi</td>
+                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
+                                      </tr>
+                                     
+                                    </tbody>
+                                  </table>
+
+                                  <div class ="row">
                                     <div class="col-lg-6 col-md-6 mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Tanggal</label>
                                         <input type="date" class="form-control" id="exampleInputPassword1">
@@ -433,52 +472,12 @@
                                     </div>
                                 </div>
 
-                                <div class ="row">
+                                <div class ="row mb-3">
                                     <div class="col-lg-12 col-md-12 mb-12">
                                         <label for="exampleInputEmail1" class="form-label">Keterangan</label>
                                         <textarea class="form-control" aria-label="With textarea"></textarea>
                                     </div>
                                 </div>
-
-                                <br>
-                                
-                                <table class="table table-bordered mt-2">
-                                    <thead>
-                                      <tr>
-                                        <th scope="col">No</th>
-                                        <th scope="col">Dokumen Diperlukan</th>
-                                        <th scope="col">Upload</th>
-                                      </tr>
-                                    </thead>
-                                    <tbody>
-                                      <tr>
-                                        <th scope="row">1</th>
-                                        <td>Foto KTP</td>
-                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">2</th>
-                                        <td>SIM Lama</td>
-                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">3</th>
-                                        <td>Sertifikat Sekolah Mengemudi</td>
-                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">4</th>
-                                        <td>Foto Cek Kesehatan</td>
-                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
-                                      </tr>
-                                      <tr>
-                                        <th scope="row">5</th>
-                                        <td>Foto Bukti Lunas Administrasi</td>
-                                        <td><input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload"></td>
-                                      </tr>
-                                     
-                                    </tbody>
-                                  </table>
 
                                 <div class="col-lg-12 col-md-12">
                                     <button type="submit" class="default-btn disabled" style="pointer-events: all; cursor: pointer;">Kirim</button>
